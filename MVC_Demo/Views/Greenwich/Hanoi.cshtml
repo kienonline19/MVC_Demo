@@ -1,0 +1,9 @@
+﻿@model MVC_Demo.Models.CampusInfo
+
+@* <h4>Current Year is @ViewBag.Year</h4>
+<h3>This is @ViewBag.Campus</h3> *@
+
+<h4>Current Year is @Model.Year</h4>
+<h3>This is @Model.Campus</h3>
+<p>Department: @Model.Department</p>
+<p>@(Model.Course ?? "No course assigned")</p>
